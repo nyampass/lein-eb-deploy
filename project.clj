@@ -1,7 +1,7 @@
-(defproject lein-beanstalk "0.2.7"
-  :description "Leiningen plugin for Amazon's Elastic Beanstalk"
-  :url "https://github.com/weavejester/lein-beanstalk"
-  :dependencies [[org.clojure/clojure "1.2.1"]
-                 [com.amazonaws/aws-java-sdk "1.3.31"]
-                 [lein-ring "0.8.2"]]
+(defproject lein-eb-deploy "0.1"
+  :description "Leiningen plugin for deploy Amazon's Elastic Beanstalk Application"
+  :url "https://github.com/nyampass/lein-eb-deploy"
+  :dependencies [[org.clojure/clojure "1.7.0"]
+                 [com.amazonaws/aws-java-sdk "1.10.61"]
+                 [lein-ring "0.9.7"]]
   :eval-in-leiningen true)
